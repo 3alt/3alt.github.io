@@ -1,2 +1,2 @@
 # 3alt.github.io
-landing page web
+visit us on 3alt.github.oi
