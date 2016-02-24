@@ -1,6 +1,6 @@
 /*!
- * Freelancer v1.0.6 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
+ * Welcome to 3alt! v1.0.6 (3alt.github.io)
+ * Copyleft 2016-2016 @mruiz
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18bc9c;
+  color: #217dbb;
   outline: none;
 }
 h1,
@@ -54,22 +54,22 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18bc9c;
+  background-color: #217dbb;
   color: white;
 }
 hr.star-primary {
-  border-color: #2c3e50;
+  border-color: #004371;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2c3e50;
+  color: #004371;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18bc9c;
+  background: #217dbb;
   color: white;
 }
 header .container {
@@ -149,7 +149,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18bc9c;
+  background: #217dbb;
   color: white;
 }
 section.success a,
@@ -157,7 +157,7 @@ section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-  color: #2c3e50;
+  color: #004371;
   outline: none;
 }
 @media (max-width: 767px) {
@@ -179,7 +179,7 @@ section.success a.active {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: rgba(33, 125, 187, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -222,13 +222,12 @@ section.success a.active {
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
-  margin-top: 15px;
 }
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18bc9c;
+  color: #217dbb;
   background: white;
   border: solid 2px white;
 }
@@ -276,7 +275,7 @@ section.success a.active {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18bc9c;
+  color: #217dbb;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -289,14 +288,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2c3e50;
+  background-color: #004371;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #003458;
 }
 .btn-social {
   display: inline-block;
@@ -367,7 +366,7 @@ footer .footer-below {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2c3e50;
+  background-color: #004371;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -378,7 +377,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2c3e50;
+  background-color: #004371;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -390,3 +389,51 @@ footer .footer-below {
   opacity: 0;
   display: none;
 }
+#profiles .profile-image {
+  max-width: 100%;
+}
+#profiles .profile-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#profiles .profile-item .profile-link {
+  display: block;
+  position: relative;
+  max-width: 10em;
+  margin: 0 auto;
+}
+#profiles .profile-item .profile-link .caption {
+  border-radius: 50%;
+  background: rgba(33, 125, 187, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#profiles .profile-item .profile-link .caption:hover {
+  opacity: 1;
+}
+#profiles .profile-item .profile-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#profiles .profile-item .profile-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#profiles .profile-item .profile-link .caption .caption-content h3,
+#profiles .profile-item .profile-link .caption .caption-content h4 {
+  margin: 0;
+}
+#profiles * {
+  z-index: 2;
+}
+/* Add more HR */

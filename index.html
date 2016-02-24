@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/3alt.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -78,12 +78,118 @@
                     <div class="intro-text">
                         <span class="name">3Alt! #devTeam</span>
                         <hr class="star-light">
-                        <span class="skills">...If It's web, we can do it...</span>
+                        <span class="skills">...If It's web, we will do it...</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
+
+    <!-- About Section -->
+    <section  id="profiles">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Meet the team</h2>
+                    <hr class="star-primary star-light">
+                </div>
+            </div>
+            <div class="row">
+              <!-- miguel ruiz profile -->
+              <div class="col-sm-4 profile-item">
+                    <a href="#profileModal1" class="profile-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                Miguel Ruiz
+                            </div>
+                        </div>
+                        <img src="img/profile/mruiz.png" class="img-circle profile-image" alt="Miguel Ruiz">
+                    </a>
+                </div>
+
+                <!-- sergio elvira profile -->
+                <div class="col-sm-4 profile-item">
+                      <a href="#profileModal2" class="profile-link" data-toggle="modal">
+                          <div class="caption">
+                              <div class="caption-content">
+                                  Sergio Elvira
+                              </div>
+                          </div>
+                          <img src="img/profile/selvira.png" class="img-circle profile-image" alt="Sergio Elvira">
+                      </a>
+                  </div>
+
+                  <!-- sergio elvira profile -->
+                  <div class="col-sm-4 profile-item">
+                        <a href="#profileModal3" class="profile-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    Carlos Velázquez
+                                </div>
+                            </div>
+                            <img src="img/profile/cvelazquez.png" class="img-circle profile-image" alt="Carlos Velázquez">
+                        </a>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Who we are -->
+    <section class="success" id="what-we-do">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2></i> What we do</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+
+            <!-- Geek view -->
+            <div id="geek-mode" class="row" style="display:none;">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>We are a </br> <strong>Set &lt;Programmer&gt; devsGroup</strong> expecialized in Software Engineering able to provide any kind of </br><strong>list($solutions)</strong> in different <strong></br>var technologies = $("#techList");</strong> </p>
+                </div>
+                <div class="col-lg-4">
+                    <p> We love to work in: </p>
+                    <code>
+                        &lt;ul id="techList"&gt; </br>
+                         &nbsp;   &lt;li&gt; JAVA &lt;/li&gt; </br>
+                         &nbsp;   &lt;li&gt; PHP (TODO Framworks list)&lt;/li&gt; </br>
+                         &nbsp;   &lt;li&gt; ... &lt;/li&gt; </br>
+                        &lt;/ul&gt;
+                     </code>
+                </div>
+            </div>
+
+            <!-- Normal view -->
+            <div id="normal-mode" class="row">
+              <div class="col-lg-4 col-lg-offset-2">
+                  <p>We are a group of <strong>developers</strong> expecialized in Software Engineering able to provide any kind of <strong>solution</strong> in different technologies </p>
+              </div>
+              <div class="col-lg-4">
+                  <p> We can talk different languages: </p>
+                  <ul class="list-unstyled list-inline">
+                    <li><h4><span class="label label-default">JAVA</span></h4></li>
+                    <li><h4><span class="label label-default">PHP</span></h4></li>
+                    <li><h4><span class="label label-default">C#</span></h4></li>
+                    <li><h4><span class="label label-default">Javascript</span></h4></li>
+                    <li><h4><span class="label label-default">Python</span></h4></li>
+                    <li><h4><span class="label label-default">SQL</span></h4></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                  <a href="javascript:void();" id="switch-mode" class="btn-social btn-outline"><i class="fa fa-fw fa-code"></i></a>
+              </div>
+          </div>
+        </div>
+    </section>
+
+
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -159,37 +265,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Who we are</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>We are a </br> <strong>Set &lt;Programmer&gt; devsGroup</strong> expecialized in Software Engineering able to provide any kind of </br><strong>list($solutions)</strong> in different <strong></br>var technologies = $("#techList");</strong> </p>
-                </div>
-                <div class="col-lg-4">
-                    <p>We love to work in: </p>
-                    <code>
-                        &lt;ul id="techList"&gt; </br>
-                         &nbsp;   &lt;li&gt; JAVA &lt;/li&gt; </br>
-                         &nbsp;   &lt;li&gt; PHP (TODO Framworks list)&lt;/li&gt; </br>
-                         &nbsp;   &lt;li&gt; ... &lt;/li&gt; </br>
-                        &lt;/ul&gt;
-                     </code>
-                </div>
-                <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div> -->
-            </div>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="contact">
@@ -255,7 +330,7 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                        <p>Beautiful Seville, Spain</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -326,10 +401,6 @@
                                 </li>
                                 <li>Service:
                                     <strong>Wordpress
-                                    </strong>
-                                </li>
-                                <li>Price:
-                                    <strong>$250
                                     </strong>
                                 </li>
                             </ul>
@@ -431,7 +502,7 @@
                             <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
+                              <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
                                     </strong>
                                 </li>
@@ -476,8 +547,8 @@
                                     <strong><a href="http://startbootstrap.com">April 2014</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Tech:
+                                    <strong><a href="http://startbootstrap.com">Wordpress, Responsibe</a>
                                     </strong>
                                 </li>
                             </ul>

@@ -35,3 +35,9 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+//switch view mode in what we do section
+$('#switch-mode').click(function() {
+    $('#geek-mode').toggle(800);
+    $('#normal-mode').toggle(800);
+});
