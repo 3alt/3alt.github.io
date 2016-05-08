@@ -61,6 +61,9 @@ module.exports = function(grunt) {
                 }
             },
         },
+        availabletasks: {           // task
+          tasks: {}               // target
+        },
     });
 
     // Load the plugins.
@@ -68,8 +71,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
-
+    grunt.loadNpmTasks('grunt-available-tasks');
     // Default task(s).
+    grunt.registerTask('tasks', ['availabletasks']);
     grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
 
 };
